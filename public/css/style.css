@@ -1,0 +1,94 @@
+body{
+    
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ .container{
+    flex: 1;
+ }
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass{
+   color: rgb(20, 218, 145);
+   font-size: 2rem;
+}
+
+.nav-link{
+    color: black;
+}
+
+.f-info{
+    text-align: center;
+    background-color: rgb(255, 248, 248);
+    height: 6rem;
+}
+
+.info-link{
+    padding-bottom: 0.5rem;
+}
+.info-link a{
+    text-decoration: none;
+    color: #222222;
+   
+  
+}
+
+.info-link a:hover{
+    text-decoration: none;
+    color: #1853dd;
+}
+
+.f-info-socials i{
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.listing-card{
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.list-link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: azure;
+}
+
+.add-btn{
+    background-color: rgb(20, 218, 145);
+    width: 8rem;
+}
+
+.show-img{
+    height: 45vh;
+}
+.btns{
+  display:flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0  ;
+}
