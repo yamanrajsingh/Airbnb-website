@@ -2,7 +2,8 @@ const mongoose = require("mongoose");
 const initdata = require("./data.js");
 const Listing = require("../models/listing.js");
 
-const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
+const MONGO_URL = "mongodb+srv://yamanrajsingh07:12345Yaman@airbnb.nkg9lun.mongodb.net/airbnb_db?retryWrites=true&w=majority&appName=airbnb";
+// const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
 main()
   .then(() => {
     console.log("connected to DB");

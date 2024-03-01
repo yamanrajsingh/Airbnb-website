@@ -63,7 +63,7 @@ main()
     console.log(" Opps Error in Connection with Database ");
   });
 async function main() {
-  await mongoose.connect("mongodb://127.0.0.1:27017/wanderlust");
+  await mongoose.connect("mongodb+srv://yamanrajsingh07:12345Yaman@airbnb.nkg9lun.mongodb.net/airbnb_db?retryWrites=true&w=majority&appName=airbnb");
 }
 // ------------------------SignUp
 app.get("/signup", (req, res) => {
