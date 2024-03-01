@@ -36,7 +36,7 @@ const sessionoption = {
 };
 // Checking route
 app.get("/", (req, res) => {
-  res.send("Working");
+  res.redirect("/lists")
 });
 
 app.use(session(sessionoption));
